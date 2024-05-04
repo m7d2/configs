@@ -1,0 +1,5 @@
+{
+    // That's the important settings you need here :-)
+    "editor.fontFamily": "CascadiaCode",
+    "terminal.integrated.fontFamily": "Hack Nerd Font"
+}
