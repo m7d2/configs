@@ -25,10 +25,10 @@ function get-gitlog{ git log }
 function get-explorerhere{ explorer .}
 function get-gitpush{ git push }
 # Alias
-Set-Alias ll ls
-Set-Alias g git
-Set-Alias -Name log -Value get-gitlog
-Set-Alias -Name gs -Value get-gitstatus
-Set-Alias -Name ex -Value get-explorer
-Set-Alias -Name gpsh -Value get-gitpush
+Set-Alias ll ls # list
+Set-Alias g git # git
+Set-Alias -Name log -Value get-gitlog # git log
+Set-Alias -Name gs -Value get-gitstatus # git status
+Set-Alias -Name exh -Value get-explorerhere # Open File explorer in the current directory
+Set-Alias -Name gpsh -Value get-gitpush # Git push
 
