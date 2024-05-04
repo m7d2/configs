@@ -70,4 +70,8 @@ for ($i = 0; $i -lt $asciiArt.Length; $i++) {
 
 $gradientArt += "`e[0m"  # Reset color
 
-Write-Host $gradientArt
+# Check if the logo has been displayed before
+if (-not $global:LogoDisplayed) {
+    Write-Host $gradientArt
+    $global:LogoDisplayed = $true
+}
