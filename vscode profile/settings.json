@@ -1,5 +1,7 @@
 {
     // That's the important settings you need here :-)
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "editor.fontFamily": "CascadiaCode",
     "terminal.integrated.fontFamily": "Hack Nerd Font"
 }
